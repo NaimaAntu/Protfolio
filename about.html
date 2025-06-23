@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Naima Ahmed | About Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero-section">
+    <div class="hero-overlay">
+      <div class="logo-container">
+        <p><img src="logo.jpg" alt="logo"> NAima Ahmed</p>
+      </div>
+      <div class="header-title">
+        <h1>About Me</h1>
+        <p class="header-subtitle">Naima Ahmed<br>Student at Daffodil International University</p>
+      </div>
+    </div>
+
+<div class="nav-toggle" onclick="toggleNav()">&#9776; <span class="toggle-text">Menu</span></div>
+<nav class="nav-dropdown" id="navDropdown">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="portfolio.html">Project</a>
+</nav>
+
+  </header>
+
+  <section class="section about">
+    <div class="section-content">
+      <h2>A Glimpse of Me</h2>
+      <p>I’m a curious and adventurous Computer Science student who finds joy in exploring the unknown—both in code and in the world. I believe that passion, purpose, and a bit of courage can lead to extraordinary things.</p>
+
+      <h3>My Inner Compass</h3>
+      <ul class="list">
+        <li>🌿 Curiosity Drives Growth</li>
+        <li>🌸 Calm, thoughtful, and deeply loyal</li>
+        <li>✈️ Passionate about travel, culture, and meaningful connection</li>
+        <li>🤝 Lead with Empathy</li>
+         <li>🌍 Stay Humble, Dream Big</li>
+      </ul>
+
+      <h3>Essence of Me</h3>
+      <p>🧭 I’m introspective, honest, and grounded — someone who finds meaning in growth, connection, and silent acts of care. I believe in showing up with sincerity. I grow in silence, think with depth, and care deeply about people and progress ❤️.</p>
+    </div>
+  </section>
+
+  <footer class="footer-box">
+    <p>&copy; 2025 Naima Ahmed. All rights reserved.</p>
+    <p>Contact: ahmed15-4640@diu.edu.bd</p>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      const menu = document.getElementById('navDropdown');
+      menu.style.display = (menu.style.display === 'flex') ? 'none' : 'flex';
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Naima Ahmed | Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero-section">
+    <div class="hero-overlay">
+      <div class="logo-container">
+        <p><img src="logo.jpg" alt="logo"> Naima Ahmed</p>
+      </div>
+      <div class="header-title">
+        <h1>Project</h1>
+        <p class="header-subtitle">Innovating and Building the Future</p>
+      </div>
+    </div>
+
+    <div class="nav-toggle" onclick="toggleNav()">&#9776; <span class="toggle-text">Menu</span></div>
+    <nav class="nav-dropdown" id="navDropdown">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="portfolio.html">Project</a>
+    </nav>
+  </header>
+
+  <section class="section project-list">
+    <div class="section-content">
+      <h2>Crafted with Code</h2>
+      <p>A showcase of simple ideas turned into real solutions — crafted with care and curiosity.</p>
+
+      <ul class="list">
+        <li>
+          <strong>💍 Biodata Form</strong><br>
+          An interactive marriage biodata form built with HTML, CSS, and JavaScript, focusing on usability and clean design  
+          <br><a href="https://github.com/NaimaAntu/Marriage-BioData-Form" target="_blank">🔗 View Biodata Project</a>
+        </li>
+        <li>
+          <strong>🧮 Calculator</strong><br>
+          A minimal and functional calculator designed using HTML, CSS, and JavaScript — built for clarity, precision, and simplicity.  
+          <br><a href="https://github.com/NaimaAntu/Simple-Calculator" target="_blank">🔗 View Calculator Project</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer-box">
+    <p>&copy; 2025 Naima Ahmed. All rights reserved.</p>
+    <p>Contact: ahmed15-4640@diu.edu.bd</p>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      const menu = document.getElementById('navDropdown');
+      menu.style.display = (menu.style.display === 'flex') ? 'none' : 'flex';
+    }
+  </script>
+</body>
+</html>

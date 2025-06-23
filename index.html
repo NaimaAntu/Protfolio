@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Naima Ahmed</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero-section">
+    <div class="hero-overlay">
+      <div class="logo-container">
+        <p><img src="logo.jpg" alt="logo"> Naima Ahmed</p>
+      </div>
+      <div class="header-title">
+        <h1>Naima Ahmed</h1>
+        <p class="header-subtitle">Student at Daffodil International University<br>Department of Computer Science and Engineering</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-toggle" onclick="toggleNav()">&#9776; <span class="toggle-text">Menu</span></div>
+<nav class="nav-dropdown" id="navDropdown">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="portfolio.html">Project</a>
+
+</nav>
+
+  <hr class="soft-divider">
+
+
+<section id="hobbies" class="hobby-section">
+    <h2 class="hobby-title">My Hobbies</h2>
+    <ul class="hobby-list">
+      <li>🌍 Exploring new places and cultures</li>
+      <li>🍱 Trying traditional foods from around the world</li>
+      <li>🧳 Dreaming and planning global adventures</li>
+      <li>🍲 Cooking and experimenting with unique recipes</li>
+      <li>🔍 Learning about local customs and traditions</li>
+      <li>🎞️ Creating beautiful travel documentaries</li>
+      <li>🗂️ Collecting unique memories, souvenirs, and stories from every journey</li>
+      <li>💼 Engaging in meaningful work that fuels growth</li>
+    </ul>
+  </section>
+
+  <hr class="soft-divider">
+
+
+<section class="interest-area">
+  <div class="image-box">
+    <img src="interest.jpg" alt="Interest Image">
+  </div>
+  <div class="content-box">
+    <h2 class="section-title">Passionate to Explore</h2>
+    <ul class="interest-list">
+      <li class="interest-item">📖 Learning from People & Local Traditions</li>
+      <li class="interest-item">🧠 Personal Growth & Creative Projects</li>
+      <li class="interest-item">🤖 AI & Machine Learning</li>
+      <li class="interest-item">📊 Data Analysis</li>
+      <li class="interest-item">💼 Digital Branding</li>
+    </ul>
+    <a href="portfolio.html" class="button-link">
+      <span class="arrow-icon">&#10132;</span> Check my projects
+    </a>
+  </div>
+</section>
+
+  <hr class="soft-divider">
+
+  <section class="section featured-work">
+    <div class="section-content dual">
+      <div class="left-pane">
+        <h2>Featured Projects</h2>
+        <p>Built using HTML, CSS, JavaScript, PHP, and MySQL</p>
+      </div>
+      <div class="right-pane">
+        <ul>
+          <li><a href="BioData Form\index.B.html" target="_blank">Biodata Form</a></li>
+          <li><a href="Calculator\index.C.html" target="_blank">Calculator</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-box">
+    <p>&copy; 2025 NAima Ahmed. All rights reserved.</p>
+    <p>Contact: ahmed15-4640@diu.edu.bd</p>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      const menu = document.getElementById('navDropdown');
+      menu.style.display = (menu.style.display === 'flex') ? 'none' : 'flex';
+    }
+  </script>
+
+</body>
+</html>
